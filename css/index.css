@@ -1,15 +1,19 @@
+@import url(//db.onlinewebfonts.com/c/33ca94f43a53fc634323a6fe191ffd64?family=TrendSansW00-Four);
+
+@font-face {font-family: "TrendSansW00-Four"; src: url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.eot"); src: url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.woff") format("woff"), url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.svg#TrendSansW00-Four") format("svg"); }
 *{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 
 .section-one{
     background-image: url('../img/bg.gif');
-    /* background-position: fixed; */
+    /* background-position: */
+    background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: inherit;
-    height:inherit;
+    width: 100vw;
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +23,87 @@
     height: 350px;
     width: 350px;
     /* vertical-align: middle; */
+}
+.section-2{
+    /* background: #181015 url(../img/bg_header.jpeg) 0px -809px no-repeat;  */
+    display: flex;
+    /* width: inherit; */
+    /* max-height: inherit; */
+}
+.column{
+    /* background-color: red; */
+    flex: 50%;
+    padding: 10px;
+    width: 100%;
+}
+#column-1{
+    background-image: url('../img/sauti_sol\ 4.jpeg');
+    background-attachment: fixed;
+    background-size: 50% 133%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#column-2{
+    /* background-color: blue; */
+    /* width: 445px; */
+    max-height: 100%;
+    text-align: justify;
+    padding: 90px;
+}
+#sauti{
+    font-family: "TrendSansW00-Four";;
+    font-size: 60px;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    background: #181015 url(../img/bg_header.jpeg) 0px -809px no-repeat; 
+    display: flex;
+    color: white;
+    /* justify-content: center; */
+    /* height: 100vh; */
+}
+.sec-row{
+    /* display: flex; */
+    text-align: center;
+    padding: 30px;
+    font-family: "TrendSansW00-Four";
+}
+.sec-row h2{
+    font-size: 60px !important;
+}
+.mem{
+    display: flex;
+    text-align: center;
+}
+.members{
+    flex: 25%;
+    margin: 20px;
+}
+.members img{
+    height: 300px;
+    width: 300px;
+}
+.member-info{
+    margin: 20px;
+}
+.member-name{
+    font-size: 21px;
+    font-weight: 900;
+}
+.member-position{
+    font-size: 15px;
+}
+#member-1{
+    /* background-color: red; */
+}
+#member-2{
+    /* background-color: blue; */
+}
+#member-3{
+    /* background-color: orange; */
+}
+#member-4{
+    /* background-color: palegreen; */
 }
